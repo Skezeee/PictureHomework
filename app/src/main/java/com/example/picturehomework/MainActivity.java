@@ -29,8 +29,6 @@ Button downloadPictureButton;
         downloadPictureButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                new DownloadImage().execute();
-
                 startActivity(intent);
 
             }
